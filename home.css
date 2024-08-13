@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  width: 100vw;
+}
+.header{
+  height: 50px;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+}
+.morebtn{
+  padding-left: 20px;
+  height: 3rem;
+  width: 3rem;
+  float: left;
+}
+#micicon{
+  background-color: rgb(233 233 233);
+    border-radius: 34px;
+    width: 32px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.utubein{
+  height: 50px;
+  width: 100px;
+  float: left;
+  padding-top: 14px;
+  padding-left: 20px;
+}
+.in{
+  padding-top: 10px;
+  float: left;
+  font-size: x-small;
+}
+.srch{
+  margin-top: 5px;
+  margin-left: 250px;
+  border-radius: 40px;
+  width: 43em;
+  height: 2.5em;
+  border: 1px solid;
+  border-color:#bab8b8;
+  float: left;
+}
+.search{
+  border-radius: 40px;
+  width: 40em;
+  height: 2em;
+  border: none;
+  margin-top: 3px;
+  padding-left: 15px;
+}
+.btn{
+  border: 1px solid;
+  border-color: #d8d7d7;
+}
+.icon-right{
+  height: 1.8em; 
+  width: 1.8em; 
+  float: right;
+  
+}
+.leftsec{
+  width: 100%;
+} 
+.left{
+  width: 20%;
+  float: left;
+  height: 800px;
+  padding-top: 55px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.left:hover{
+  overflow-y: scroll;
+}
+.btns{
+ padding-left: 300px;
+ width: 100%;
+ float: left;
+ padding-top: 60px;
+ position: fixed;
+ top: 0;
+ background-color: white;
+ z-index: 1;
+}
+.btn1:hover{
+  background-color: #b1aeae;
+}
+.btn1{
+  margin-left: 10px;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 7px;
+  color: rgb(80, 80, 80);
+  background-color: #e7e7e7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  padding: 6px;
+}
+.btnnew{
+  background: linear-gradient(to right, #add3ef , #edb1d0);
+}
+.btnnew:hover{
+  background: linear-gradient(to right, #98c4e3 , #eba5c9);
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
+}
+.txt{
+  font-size: 14px;
+  padding-left: 10px;
+}
+.more{
+  padding-top: 50px;
+}
+.imgicon{
+  width: 25px; 
+  height: 25px;
+}
+.libg{
+  height: 30px;
+  width: 250px;
+  border-radius: 10px;
+}
+.libg:hover{
+  background-color: #eeecec;
+}
+.posts{
+  height: 200px;
+  width: 380px;
+  border: solid 1px rgba(250, 250, 250, 0.733);
+  border-radius: 30px;
+  float: left;
+  margin: 10px;
+}
+.vid{
+  padding-top: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+}
+.vidhead{
+  padding-left: 10px;
+}
+.vidhead2{
+  padding-left: 55px;
+}
+.description{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.bro{
+  padding-left: 55px;
+  color: rgb(140, 137, 137);
+  font-size: 13px;
+}
+.kebab{
+  padding-left: 40px;
+}
